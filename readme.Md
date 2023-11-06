@@ -111,5 +111,5 @@ This API uses Mongoose to interact with MongoDB. The provided codebase includes 
 
 ### Video Demonstration
 
-A video demonstration of this API, covering all CRUD operations and edge cases, can be found at [Video Demonstration]().
+A video demonstration of this API, covering all CRUD operations and edge cases, can be found at [Video Demonstration](https://www.youtube.com/watch?v=h8YV9CqCVw8).
 

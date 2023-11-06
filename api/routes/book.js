@@ -56,18 +56,6 @@ router.put("/book/:id", async (req, res) => {
   }
 });
 
-// router.patch("/books/:id", async (req, res) => {
-//   const { id } = req.params;
-//   try {
-//     const book = await Book.findByIdAndUpdate(id, req.body, { new: true });
-//     if (!book) {
-//       return res.status(404).json({ message: "Book not found" });
-//     }
-//     res.json(book);
-//   } catch (error) {
-//     res.status(400).json({ message: error.message });
-//   }
-// });
 
 router.delete("/book/:id", async (req, res) => {
   const { id } = req.params;
